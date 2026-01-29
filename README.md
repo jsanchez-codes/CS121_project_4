@@ -4,7 +4,7 @@
 Algorithm for Project 4
 
 #documentation for horse race
-'''
+```
 #include <iostream>
 //standard library for input and output
 #include <cstdlib>
