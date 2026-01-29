@@ -30,7 +30,7 @@ create an array of five integers symbolizing the horses
 
 
 ```
-##advance function
+## advance function
 ```
 create a for loop
 
