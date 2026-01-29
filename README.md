@@ -4,7 +4,6 @@
 Algorithm for Project 4
 
 #documentation for horse race
-
 '''
 #include <iostream>
 //standard library for input and output
@@ -24,7 +23,7 @@ create a function prototype
 
 
 ```
-##main function
+## main function
 ```
 main(){
 create an array of five integers symbolizing the horses
@@ -37,7 +36,7 @@ create a for loop
 
 
 ```
-##printLane function
+## printLane function
 ```
 
 a
@@ -45,7 +44,7 @@ b
 c
 
 ```
-##isWinner function
+## isWinner function
 ```
 
 a
