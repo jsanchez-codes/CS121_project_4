@@ -11,6 +11,10 @@ const int TRACK_LENGTH = 15;
 
 int main(){
 	std::cout << "Horse Race Game " << std::endl;
+	srand(time(NULL));
+
+	int horses[NUM_HORSES] = {0, 0, 0, 0, 0};
+
 
 	return 0;
 } // end main
