@@ -38,7 +38,6 @@ create a for loop
 ```
 ## printLane function
 ```
-
 a
 b
 c
@@ -46,7 +45,6 @@ c
 ```
 ## isWinner function
 ```
-
 a
 b
 c
