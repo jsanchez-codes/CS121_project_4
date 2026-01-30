@@ -3,7 +3,7 @@
 
 Algorithm for Project 4
 
-#documentation for horse race
+#documentation for horse race game
 ```
 #include <iostream>
 //standard library for input and output
@@ -12,10 +12,6 @@ Algorithm for Project 4
 #include <ctime>
 //collection of date and time functions
 
-srand(time(NULL));
-//random number generator
-coin = rand () % 1;
-//random coin toss generator
 
 ```
 ## function protos
