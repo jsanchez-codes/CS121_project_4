@@ -15,14 +15,16 @@ int main(){
 
 	int horses[NUM_HORSES] = {0, 0, 0, 0, 0};
 
-	bool keepGoing = TRUE;
+	bool keepGoing = true;
 	while (keepGoing){
 		for (int i = 0; i < TRACK_LENGTH; i++){
-			advance(0, horses);
-			printLane(0, horses);
-			isWinner(0, horses);
-				keepGoing = FALSE
-			std::cout << "Press enter for another turn " << std::endl; 
+			advance(i, horses);
+			printLane(i, horses);
+			if (isWinner){
+				keepGoing = false;
+			} else {
+			std::cout << "Press enter for another turn " << std::endl;
+		       	} // end else	
 		} // end for
 	} // end while
 
@@ -46,10 +48,10 @@ void printLane(int horseNum, int* horses){
 	std::cout << std::endl;
 } // end printLane
 
-bool isWinner(int horseNum, int* horses){
-	result = FALSE;
+bool isWinner(int horseNum, int* horses)
+	bool winner = false;
 	if (horses[horseNum] >= TRACK_LENGTH){
-		result = TRUE;
+		bool winner = true;
 	std::cout << horses << "WINS!" << std::endl;
 	} // end if
 } // end isWinner
