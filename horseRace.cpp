@@ -20,7 +20,7 @@ int main(){
 		for (int i = 0; i < NUM_HORSES; i++){
 			advance(i, horses);
 			printLane(i, horses);
-			if (isWinner(i, horses)){
+			if (isWinner){
 				keepGoing = false;
 			} else {
 			std::cout << "Press enter for another turn " << std::endl;
@@ -44,15 +44,16 @@ void printLane(int horseNum, int* horses){
 			std::cout << ".";
 		} // end if
 	} // end for loop
-	// print a newline
+	  // print a newline
 	std::cout << std::endl;
 } // end printLane
 
 bool isWinner(int horseNum, int* horses){
 	bool winner = false;
 	if (horses[horseNum] >= TRACK_LENGTH){
-	std::cout << "HORSE " <<  horseNum << " WINS!" << std::endl;
+		bool winner = true;
+		std::cout << "HORSE " <<  horseNum << " WINS!" << std::endl;
 	} // end if
-	return false;
+	return winner;
 } // end isWinner
 
