@@ -16,7 +16,7 @@ int main(){
 	int horses[NUM_HORSES] = {0, 0, 0, 0, 0};
 
 	// test
-	for (int i  = 0; i < TRACK_LENGTH; i++){
+	for (int i  = 0; i < NUM_HORSES; i++){
 		advance(i, horses);
 		printLane(i, horses);
 	} // end for
