@@ -49,6 +49,7 @@ void printLane(int horseNum, int* horses){
 } // end printLane
 
 bool isWinner(int horseNum, int* horses){
+	bool winner = false;
 	if (horses[horseNum] >= TRACK_LENGTH){
 	std::cout << "HORSE " <<  horseNum << " WINS!" << std::endl;
 	} // end if
