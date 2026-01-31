@@ -52,6 +52,6 @@ bool isWinner(int horseNum, int* horses){
 	if (horses[horseNum] >= TRACK_LENGTH){
 	std::cout << "HORSE " <<  horseNum << " WINS!" << std::endl;
 	} // end if
-	return false;
+	return true;
 } // end isWinner
 
